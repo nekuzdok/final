@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+/* 인덱스 페이지 */
+video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 1;
+}
+.top{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    /* background-color: #000; */
+    z-index: 10;
+    background: radial-gradient(
+        rgba(110, 110, 110, 0.3),
+        rgba(0, 0, 0, 0.8)
+    );
+}
+.wrap{
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 20;
+}
+.logo{height: 230px;text-align: center;padding-top: 110px;}
+.subcopy{
+    height: 119px;
+    padding-top: 250px;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: -0.5px;
+    font-weight: 500;
+    font-family: "Noto Sans KR", sans-serif;
+}
+.box03{height: 43px;padding-top: 20px;text-align: center;}
+
+/* 서브 페이지 */
+.font01{font-family: "Noto Sans KR", serif;font-size: 30px;font-weight: 1000;letter-spacing: -0.5px; color: white; text-align: center;line-height: 45px;}
+.font02{font-family: "Noto Sans KR", serif;font-size: 25px;font-weight: 800;letter-spacing: -0.5px; color: white; text-align: center; line-height: 33px;}
+.font03{font-family: "Noto Sans KR", serif;font-size: 22px;font-weight: 800;letter-spacing: -0.5px; color: white; text-align: center; line-height: 35px;}
+.font04{font-family: "Noto Sans KR", serif;font-size: 20px;font-weight: 800;letter-spacing: -0.5px; color: white; text-align: center; line-height: 33px;}
+.font05{font-family: "Noto Sans KR", serif;font-size: 15px;font-weight: 600;letter-spacing: -0.6px; color: white; text-align: center; line-height: 24px;}
+
+
+.b01{ width: 100%; height: 715px; background-image: url(img/b01.png);background-repeat: no-repeat; background-position:center;}
+.b02{ width: 100%; height: 1142px; background-image: url(img/b02.png);background-repeat: no-repeat; background-position:center;}
+.b03{ width: 100%; height: 1474px;background-image: url(img/b03.png);background-repeat: no-repeat; background-position:center;}
+.b04{ width: 100%; height: 927px;background-image: url(img/b04.png);background-repeat: no-repeat; background-position:center;}
+.b05{ width: 100%; height: 2552px;background-image: url(img/b05.png);background-repeat: no-repeat; background-position:center;}
+
+/* 1페이지 */
+.b01_01{width: 256px; height: 188px; margin: 0 auto; padding-top: 57px;}
+
+/* 2페이지 */
+.b02_txt01{text-align: center; width: 100%;padding-top: 209px; color: #563127;}
+.b02_txt02{text-align: center; width: 100%; padding-top: 47px; color: #563127;}
+
+/* 3페이지 */
+.b03_txt01{width: 184px; height: 44px; padding-top: 50px; margin: 0 auto;}
+.b03_txt02{width: 266px; height: 36px; padding-top: 44px; margin: 0 auto;}
+.bo3_txt03{width: 100%; width: 358px; height: 105px; padding-top: 30px; margin: 0 auto;}
+.b03_img01{width: 224px; height: 253px; margin: 0 auto; padding-top: 5px;}
+
+.b03_02{width: 100%; width: 391px; height: 120px; margin: 0 auto; padding-top: 77px; position: relative;}
+.b03_txt04{width: 230px; height: 29px; position: absolute; right: 0; text-align: left;}
+.b03_txt05{width: 230px; height: 69px; position: absolute; right: 0; bottom: 0; text-align: left;}
+.b03_img02{width: 136px; height: 120px; position: absolute; bottom: 0;}
+
+.b03_03{width: 100%; width: 391px; height: 147px; margin: 0 auto; padding-top: 45px; position: relative;}
+.b03_txt06{width: 230px; height: 29px; position: absolute; right: 0;text-align: left;}
+.b03_txt07{width: 230px; height: 93px; position: absolute; right: 0; bottom: 0;text-align: left;}
+.b03_img03{width: 136px; height: 147px; position: absolute;}
+
+.b03_04{width: 100%; width: 391px; height: 184px; margin: 0 auto; padding-top: 45px; position: relative;}
+.b03_txt08{width: 230px; height: 29; position: absolute; right: 0; text-align: left;}
+.b03_txt09{width: 230px; height: 141px; position: absolute; right: 0; bottom: 0; text-align: left;}
+.b03_img04{width: 136px; height: 147px; position: absolute; padding-top: 19px;}
+
+.b03_05{width: 100%; width: 391px; height: 184px; margin: 0 auto; padding-top: 45px; position: relative;}
+.b03_txt10{width: 230px; height: 29px; position: absolute; right: 0; text-align: left;}
+.b03_txt11{width: 230px; height: 141px; position: absolute; right: 0; bottom: 0; text-align: left;}
+.b03_img05{width: 136px; height: 157px; position: absolute; padding-top: 14px;}
+
+/* 4페이지 */
+.b04_txt01{width: 100%; width: 215px; height: 44px; margin: 0 auto; padding-top: 63px;}
+.b04_txt02{width: 100%; width: 291px; height: 189px; margin: 0 auto; padding-top: 27px;}
+.b04_01{width: 100%; width: 370px; height: 475px; margin: 0 auto; padding-top: 48px; background-image: url(img/b04_01.png);background-repeat: no-repeat; background-position:center; margin:0 auto;}
+.b04_img01{width: 100%; width: 266px; height: 51px; padding-top: 390px;margin: 0 auto;}
+
+/* 5페이지 */
+.b05_01{ width: 340px; height: 531px; background-image: url(img/b05_01.png);background-repeat: no-repeat; background-position:center; margin:0 auto; padding-top: 30px;}
+.b05_txt01{width: 100%; width: 348px; height: 64px; margin: 0 auto; padding-top: 92px; color: #3D1C17;}
+.b05_txt02{width: 100%; width: 86px; height: 36px; margin: 0 auto; padding-top: 312px;}
+.b05_txt03{width: 100%; width: 315px; height: 115px; margin: 0 auto; padding-top: 23px; color: #3D1C17;}
+
+.b05_02{width: 340px; height: 531px; background-image: url(img/b05_02.png);background-repeat: no-repeat; background-position:center; margin:0 auto; padding-top: 47px;}
+.b05_txt04{width: 100%; width: 86px; height: 36px; margin: 0 auto; padding-top: 305px;}
+.b05_txt05{width: 100%; width: 313px; height: 126px; margin: 0 auto; padding-top: 23px; color: #3D1C17;}
+
+.b05_03{ width: 340px; height: 576px; background-image: url(img/b05_03.png);background-repeat: no-repeat; background-position:center; margin:0 auto; padding-top: 30px;}
+.b05_txt06{width: 100%; width: 86px; height: 36px; margin: 0 auto; padding-top: 357px;}
+.b05_txt07{width: 100%; width: 317px; height: 125px; margin: 0 auto; padding-top: 23px;color: #3D1C17;}
+
+.b05_04{width: 340px; height: 529px; background-image: url(img/b05_04.png);background-repeat: no-repeat; background-position:center; margin:0 auto; padding-top: 47px;}
+.b05_txt08{width: 100%; width: 86px; height: 36px; margin: 0 auto; padding-top: 303px;}
+.b05_txt09{width: 100%; width: 317px; height: 125px; margin: 0 auto; padding-top: 23px;color: #3D1C17;}
+
+/* footer 페이지 */
+.footer{width: 100%; height: 236px; background-color:#563127;}
+.footer_img{width: 100%; width: 164px; height: 30px; padding-top: 36px; padding-left: 37px;}
+.footer_txt01{ width: 100%; width: 363px; height: 116px; padding-top: 18px; text-align: left; margin: 0 auto;}
+
+
